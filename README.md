@@ -1,14 +1,7 @@
-Here’s the updated **Markdown README** with your GitHub repository link added at the end:
-
-````markdown
 # 📊 Pandas Tutorial Notebook
-
 This Jupyter Notebook provides a comprehensive hands-on introduction to core **pandas** functionalities. It demonstrates how to create and manipulate `DataFrames`, perform indexing, load and save data, and use powerful functions like `groupby`, `apply`, `map`, and sorting.
 
----
-
 ## 📘 Contents
-
 ### 1. **Creating and Displaying DataFrames**
 - Creating a DataFrame from a dictionary.
 - Setting custom row indices.
@@ -44,57 +37,34 @@ This Jupyter Notebook provides a comprehensive hands-on introduction to core **p
 - Sorting values by multiple columns using `.sort_values()`.
 - Selecting top `n` entries with `.nlargest()`.
 
----
-
 ## ✅ Requirements
-
 - Python 3.x
 - pandas
 - Jupyter Notebook
 
 Install dependencies:
-
-```bash
 pip install pandas notebook
-````
-
----
 
 ## 📂 Files
-
 * `NYC_Jobs.csv`: Sample dataset used for analysis.
 * `people.csv`: Demonstration CSV created and read during the session.
 * This notebook (`pandas_tutorial.ipynb`): Contains all examples and explanations.
 
----
-
 ## 📌 Notes
-
 * All operations are performed in-memory; original data remains unchanged unless explicitly saved.
 * Sorting and CSV export operations use `inplace=True` and `index=False` for control.
 * GroupBy and aggregation methods are useful for summarizing large datasets.
 
----
-
 ## 📤 Future Enhancements
-
 * Handling missing data.
 * Data type conversions.
 * Merging and joining datasets.
 * Visualizations using matplotlib/seaborn.
 
----
-
 ## 🧑‍💻 Author
-
 This notebook was created as part of a practical introduction to pandas for data manipulation and exploration.
 
----
-
 ## 📎 Clone This Repository
-
 To clone this repository and explore the notebook:
-
-```bash
 git clone https://github.com/har200509/Learnings.git
-```
+
